@@ -50,7 +50,7 @@ def find_duplicate_files_in_main_directory(main_directory, logger):
 
 if __name__ == "__main__":
     # Spécifie le dossier principal à parcourir
-    main_directory = "C:/Users/yococo/Desktop/FiveM-Interiors-main"  # Remplace ce chemin
+    main_directory = "C:/your/folder/path"  # Remplace ce chemin
 
     # Spécifie le fichier de log
     log_file = "duplicate_files_log.txt"
@@ -60,5 +60,3 @@ if __name__ == "__main__":
 
     # Lancer la recherche des fichiers doublons
     find_duplicate_files_in_main_directory(main_directory, logger)
-
-#C:/Users/yococo/Desktop/FiveM-Interiors-main
